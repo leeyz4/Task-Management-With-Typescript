@@ -132,9 +132,4 @@ manager.unassignTask(14);
 
 console.info("All Users:", manager.getAllUsers());
 console.info("All Tasks:", manager.getAllTasks());
-console.info("Tasks Assigned to:", user1.name , "-", manager.getTaskByID(user1.id)); 
-
-function getTasksByUser(userId: any, number: any) {
-    throw new Error("Function not implemented.");
-}
     
